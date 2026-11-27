@@ -3,7 +3,7 @@ class Memtree < Formula
   homepage "https://github.com/alexkme/memtree"
   # scripts/release.sh in the memtree repo rewrites the url and sha256 lines on every release.
   url "https://github.com/alexkme/memtree/releases/download/v0.1.0/memtree-0.1.0.tar.gz"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "2fad51e736a62f42298d43de8abcf3f21e7c8281ed69aa60e7e2f3f36f993cbc"
   license "MIT"
 
   livecheck do
