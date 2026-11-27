@@ -6,18 +6,10 @@ Homebrew formulae for [alexkme](https://github.com/alexkme)'s tools.
 
 A lightweight macOS menu bar memory monitor with a built-in CLI. [Source and docs](https://github.com/alexkme/memtree).
 
-Add the tap, trust it, then install by the short name:
+Install with one command:
 
 ```sh
-brew tap alexkme/tap
-brew trust alexkme/tap
-brew install memtree
-```
-
-Or do it in one command:
-
-```sh
-brew install alexkme/tap/memtree
+brew tap alexkme/tap && brew trust alexkme/tap && brew install memtree
 ```
 
 Then start the app:
@@ -26,7 +18,7 @@ Then start the app:
 open "$(brew --prefix memtree)/Memtree.app"
 ```
 
-Homebrew 6 and later asks you to trust third-party taps, which is what `brew trust alexkme/tap` does. It trusts every formula in this tap, now and later. The one-line install trusts only the memtree formula.
+Homebrew 6 and later asks you to trust third-party taps, which is what `brew trust alexkme/tap` does. It trusts every formula in this tap, now and later.
 
 Requirements: Apple Silicon, macOS 26 or later, Xcode 26. The formula builds from source, so the app carries no download quarantine flag.
 
