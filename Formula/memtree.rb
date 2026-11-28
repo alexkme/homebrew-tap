@@ -2,8 +2,8 @@ class Memtree < Formula
   desc "Lightweight macOS menu bar memory monitor with a built-in CLI"
   homepage "https://github.com/alexkme/memtree"
   # scripts/release.sh in the memtree repo rewrites the url and sha256 lines on every release.
-  url "https://github.com/alexkme/memtree/releases/download/v0.1.1/memtree-0.1.1.tar.gz"
-  sha256 "0990f48be291fab069baf290f4a66c3dac09ab1f4db72044eb6ab7f80247d2ce"
+  url "https://github.com/alexkme/memtree/releases/download/v0.1.2/memtree-0.1.2.tar.gz"
+  sha256 "93157eb5cc681d0d0ea1e95e2033ad590ce1bc66bea930e4cea65c81d2c6b5f0"
   license "MIT"
 
   livecheck do
